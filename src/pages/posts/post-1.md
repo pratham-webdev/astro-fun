@@ -8,7 +8,7 @@ image:
     alt: 'The full Astro logo.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-<a href="/blog/">Blog</a>
+<a href="astro-fun/blog/">Blog</a>
 # My First Blog Post
 
 Published on: 2022-07-01

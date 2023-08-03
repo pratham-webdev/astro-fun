@@ -13,6 +13,7 @@ const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
 const skillColor = 'green';
 const fontWeight = 'bold';
 const textCase = 'uppercase';
+const baseURL = '/astro-fun';
 ---
 
 <html lang="en">
@@ -22,9 +23,9 @@ const textCase = 'uppercase';
     <title>{pageTitle}</title>
   </head>
   <body>
-    <a href="/astro-fun/">Home</a>
-    <a href="/astro-fun/about/">About</a>
-    <a href="/astro-fun/blog/">Blog</a>
+    <a href=`${baseURL}/`>Home</a>
+    <a href=`${baseURL}/about/`>About</a>
+    <a href=`${baseURL}/blog/`>Blog</a>
     <h1>{pageTitle}</h1>
 	<style define:vars={{skillColor, fontWeight, textCase}}>
 		h1 {

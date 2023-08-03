@@ -1,4 +1,6 @@
 ---
+const baseURL = '/astro-fun';
+
 ---
 <html lang="en">
   <head>
@@ -7,16 +9,16 @@
     <title>Astro</title>
   </head>
   <body>
-    <a href="/astro-fun/">Home</a>
-    <a href="/astro-fun/about/">About</a>
-    <a href="/astro-fun/blog/">Blog</a>
+    <a href=`${baseURL}/`>Home</a>
+    <a href=`${baseURL}/about/`>About</a>
+    <a href=`${baseURL}/blog/`>Blog</a>
 
     <h1>My Astro Learning Blog</h1>
     <p>This is where I will post about my journey learning Astro.</p>
     <ul>
-      <li><a href="/posts/post-1/">Post 1</a></li>
-      <li><a href="/posts/post-2/">Post 2</a></li>
-      <li><a href="/posts/post-3/">Post 3</a></li>
+      <li><a href=`${baseURL}/posts/post-1/`>Post 1</a></li>
+      <li><a href=`${baseURL}/posts/post-2/`>Post 2</a></li>
+      <li><a href=`${baseURL}/posts/post-3/`>Post 3</a></li>
     </ul>
   </body>
 </html>
